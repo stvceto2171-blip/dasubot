@@ -1,1 +1,5 @@
-{"buildCommand": "echo 'Simple deployment'", "outputDirectory": "."}
+{
+  "installCommand": "echo 'Skip Install'",
+  "buildCommand": "mkdir -p dist && cp index.html dist/",
+  "outputDirectory": "dist"
+}
